@@ -1,2 +1,2 @@
-# remote-surveillance-system-with-motion-sensor-
-The current project is based on a client - server system with email notifications when a motion detect
+# remote-surveillance-system-with-PIR-motion-sensor-
+The current project is based on a client - server system with email notifications when a motion detect occur. The client is built in a raspberry pi with a camera module and the server on Windows pc on a local netowrk. When a motion detect occur from the PIR sensor a livestream is playing on the remote PC and an email is sending with attachment of the capture.

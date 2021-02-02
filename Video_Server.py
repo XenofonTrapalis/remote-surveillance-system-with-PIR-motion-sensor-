@@ -20,6 +20,7 @@ def my_server():
         try:
             #when a motion detected from the client the connection established and open run the vlc player for the
             #streaming
+            #You have to change the path accordingly
             cmdline = (os.path.join('C:/','Program Files (x86)','VideoLAN','VLC','vlc.exe'), '--demux', 'h264', '-')
             player = Popen(cmdline, stdin=PIPE)
             print('connection established')
